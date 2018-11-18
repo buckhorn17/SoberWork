@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI',SegoeUI,'Microsoft JhengHei',微軟正黑體,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.span{
+    display: block;
+}
+
+
+top{
+    text-align: center;
+    
+}
+
+.top_head{
+    padding: 20px;
+    background-image: url(/pic/fog-3622519_1920.jpg);
+    background-size: 100%;
+    background-position-y: 38%;
+    background-position-x: 100%;
+
+}
+
+.menu {
+    padding: 20px 15%;
+    background: rgb(125, 150, 125);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+}
+.menu a{
+    padding: 0 5%;
+    text-decoration:none;
+}
+
+.menu a:link , a:visited{
+    color:rgb(255, 255, 255);
+    padding: 20px 5%;
+}
+
+
+.menu a:hover{
+    background-color: rgb(88, 109, 88);
+    padding: 20px 5%;
+    color: rgb(58, 68, 58);
+}
+
+.banner {
+    width: 100%;
+    height: 680px;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    position: relative;
+    top:-17%;
+    
+}
+
+.main{
+    max-width: 1440px;
+    margin: auto;
+    background-color: rgba(159, 197, 164, 0.425);
+    padding: 0 0 20px;
+}
+
+
+
+
+
+.main_1 .item{
+width: 33.33333333%;
+float: left;
+padding: 60px 20px;
+}
+
+.main_1 img{
+    width: 100%;
+    height: auto;
+}
+
+.main_1 h2{
+    text-align: center;
+}
+
+.main_2{
+    background-image: url(/pic/sunlight-166733_1920.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 1%;
+  }
+.main_2 .txt_2 {
+    text-align: center;
+    line-height: 2;
+    margin-left: 50%;
+    padding: 3% 5%;
+  }
+  .main_2 .txt_2 h2{
+    font-size: 28px;
+    line-height: 3;
+  }
+
+
+
+
+
+
+
+.main_3{
+    padding: 1%;
+}
+
+.main_3 .item{
+    width: 50%;
+    float: left;
+    height: 404px;
+    overflow: hidden;
+    display: block;
+}
+
+.main_3 .item_1,.item_2 {
+    width: 49%;
+    height: 202px;
+    overflow: hidden;
+    position: relative;
+    right: -1%;
+
+}
+
+
+
+.main_3 .item img{
+    margin: 1% 0 ;
+    
+    width: auto;
+    height: 100%;
+    
+}
+
+
+.main_3 .item_1 img{
+    margin: 1% 0 ;
+    width: 100%;
+    height: auto;
+
+}
+
+.main_3 .item_2 img{
+    
+    margin: 1% 0 ;
+    width: 100%;
+    height: auto;
+
+}
+
+.main_4 {
+    margin: 2%;
+    border: 8px solid rgba(46, 61, 48, 0.8);
+    box-shadow: 2px 2px 10px 0px rgba(47, 47, 45, 0.69);
+    border-radius: 8px;
+}
+
+
+
+footer{
+    padding: 15px;
+    background-color: rgb(46, 61, 48);
+    text-align: center;
+    color: #ffffff;
+
+}
+
+
+/* .main_2 .txt_2{
+text-align: center;
+line-height: 2;
+position: relative;
+top: -30px;
+left:180%;
+} */
+
+@media screen and (max-width:1078px){
+
+    .banner {
+        width: 100%;
+        height: 680px;
+        overflow: hidden;
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+
+    .main_1 .item{
+        width: 100%;
+        float: left;
+        padding: 60px 20px 20px;
+        }
+
+    .main_1 .txt_1{
+        margin: 5% 5% 0;
+    }
+
+
+    .main_2{
+            background-image: url(https://pixabay.com/get/e833b7082bf71c22d2524518a33219c8b66ae3d01db314409cf1c77d/sunlight-166733_1280.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: left center;
+            margin: 60px 1%;
+            
+          }
+    .main_2 .txt_2 {
+            text-align: center;
+            line-height: 1.5;
+            margin: 0 10%;
+            background-color: rgba(128, 184, 144, 0.411);
+            border-radius: 10px;
+          }
+          
+
+         .main_3 .item{
+            width: 50%;
+            height: 202px;
+            float: left;
+            overflow: hidden;
+            display: block;
+        }
+        .main_3 .item_1{
+            width: 49%;
+        }
+
+        .main_3 .item_1 img{
+            width: 200%;
+            height: auto;
+        
+        }
+
+        .main_3 .item_2 {
+            width: 100%;
+            height: auto;
+            padding-top: 20px;
+            position: relative;
+            left: 0px;
+        }
+
+        
+
+
+          
+          .menu {
+            padding: 0;
+            background: rgb(125, 150, 125);
+            height: 100%;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            font-weight:bold;
+        }
+
+
+
+        .menu a{
+            display: block;
+            text-decoration:none;
+        }
+        
+        .menu a:link , a:visited{
+            color:rgb(255, 255, 255);
+            padding: 20px 5%;
+        }
+        
+        
+        .menu a:hover{
+            background-color: rgb(88, 109, 88);
+            padding: 20px 5%;
+            color: rgb(58, 68, 58);
+        }
+
+
+
+
+}
+
+
+
